@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="akkatestapp1"
+		module="akkatestapp1_2.10"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160113001827"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-agent_2.10">
+			<revision name="2.2.3" status="release" pubdate="20140402201453" resolver="jcenter" artresolver="jcenter" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2716" time="1504" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/ivy-2.2.3.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-agent_2.10/2.2.3/akka-agent_2.10-2.2.3.pom"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-agent_2.10" type="bundle" ext="jar" status="successful" details="" size="17205" time="1264" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/bundles/akka-agent_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-agent_2.10/2.2.3/akka-agent_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20121222033826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/rumiismail/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="default, compile, runtime, master" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="no" details="" size="650514" time="0" location="/Users/rumiismail/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
+			<revision name="2.2.3" status="release" pubdate="20140402202511" resolver="jcenter" artresolver="jcenter" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3664" time="1484" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.2.3.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.10/2.2.3/akka-remote_2.10-2.2.3.pom"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-remote_2.10" type="bundle" ext="jar" status="successful" details="" size="1277288" time="3883" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.10/2.2.3/akka-remote_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20140406193608" resolver="jcenter" artresolver="jcenter" homepage="http://maths.uncommons.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1650" time="522" location="/Users/rumiismail/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="successful" details="" size="49019" time="556" location="/Users/rumiismail/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.4.1" status="release" pubdate="20140402045824" resolver="jcenter" artresolver="jcenter" homepage="http://code.google.com/p/protobuf" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="7309" time="1370" location="/Users/rumiismail/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="successful" details="" size="450279" time="2471" location="/Users/rumiismail/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.6.6.Final" status="release" pubdate="20130515072624" resolver="jcenter" artresolver="jcenter" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="26204" time="2648" location="/Users/rumiismail/.ivy2/cache/io.netty/netty/ivy-3.6.6.Final.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/io.netty/netty/ivy-3.6.6.Final.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="3.6.6.Final" rev-constraint-default="3.6.6.Final" rev-constraint-dynamic="3.6.6.Final" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="successful" details="" size="1206119" time="4067" location="/Users/rumiismail/.ivy2/cache/io.netty/netty/bundles/netty-3.6.6.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
+			<revision name="2.2.3" status="release" pubdate="20140402203027" resolver="jcenter" artresolver="jcenter" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2520" time="1748" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.3.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.10/2.2.3/akka-slf4j_2.10-2.2.3.pom"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="successful" details="" size="14495" time="1448" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.10/2.2.3/akka-slf4j_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.2" status="release" pubdate="20140406143216" resolver="jcenter" artresolver="jcenter" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="successful" details="" size="2689" time="1331" location="/Users/rumiismail/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="26083" time="3966" location="/Users/rumiismail/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023093705" resolver="jcenter" artresolver="jcenter" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2331" time="1981" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.2.3.xml" searched="true" original-local-location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.10/2.2.3/akka-testkit_2.10-2.2.3.pom"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.10" type="bundle" ext="jar" status="successful" details="" size="238520" time="2533" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.10/2.2.3/akka-testkit_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023093548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2776" time="0" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.pom"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2669443" time="0" location="/Users/rumiismail/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.2" status="release" pubdate="20130703140814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2723" time="0" location="/Users/rumiismail/.ivy2/cache/com.typesafe/config/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="187497" time="0" location="/Users/rumiismail/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150227015400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, master(*), runtime(*), master(compile), compile(*)" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/rumiismail/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7130772" time="0" location="/Users/rumiismail/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), default, master(compile), default(compile), master" position="-1">
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, master(*), default(compile)" position="-1">
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="akkatestapp1" name="akkatestapp1_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,11 @@
+set name : "AkkaTestApp1"
+show version
+exit
+set name : "AkkaTestApp1"
+set name : "AkkaTestApp"
+set name : "testapp1"
+set version := "1.0"
+set scalaVersion := "2.10.5"
+set name := "AkkaTestApp1"
+session save
+exit
