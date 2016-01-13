@@ -46,11 +46,11 @@ public class App {
      // this doesn't block the current thread
      // as we're using future and callback
      //
-     /*final ExecutionContext ec = system.dispatcher();
+     final ExecutionContext ec = system.dispatcher();
  
      future.onComplete(new OnComplete<Object>() {
          public void onComplete(Throwable t, Object result) {
-            System.out.println("[CALLBACK   ]: Handling OnSuccess......");
+            System.out.println("[CALLBACK   ]: Handling OnComplete......");
 
             if ("hey mate! what's up?" == (String)result) {
                 System.out.println("[CALLBACK   ]: Good that you remember me :)");
@@ -60,7 +60,7 @@ public class App {
 
 	    system.shutdown();
          }
-     }, ec);*/
+     }, ec);
 
 
      // ----- (2) Not a healthy approach -----
@@ -68,7 +68,7 @@ public class App {
      // this blocks current running thread
      // as we're using Await() and no callback
      //
-     try {
+     /*try {
          String result = (String) Await.result(future, timeout.duration());
          if ("hey mate! what's up?" == result) {
              System.out.println("[AWAIT      ]: Good that you remember me :)");
@@ -79,7 +79,7 @@ public class App {
 	 System.out.println("[AWAIT      ]: Actor timeout fired!!!!");
      } finally{
          system.shutdown();
-     }
+     }*/
 
      System.out.println("[MAIN THREAD]: IF THIS IS THE LAST MESSAGE YOU SEE, YOU'RE BLOCKING! IF NOT YOU AREN'T");; 
  }
